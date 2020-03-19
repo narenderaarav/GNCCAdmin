@@ -1,0 +1,119 @@
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{font-size: 20px!important; 
+    padding:0px!important; 
+    margin: 0px!important;
+}
+
+.contentArea{
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    background: #f2edf3;
+}
+
+
+
+
+.workSection{
+    
+    min-height: 100vh;
+    background: #f2edf3;
+    margin: 30px;
+}
+
+.workAreaBg{
+    padding: 20px;
+    background: #fff;
+}
+
+.heading{
+    width:100%;
+    padding: 10px 10px 10px 0px;
+    /* background: #f9f9f9;
+    border-bottom: 2px #eee solid; */
+}
+
+.formcontainer{
+    margin-top: 20px;
+    display: block;
+}
+
+
+
+/* Attendance */
+
+
+
+
+.tableResult{
+    margin-top: 30px;
+}
+
+.tdWidth{
+    width: 16%;
+}
+
+
+.actionbtn .btn{
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+.actionbtn .svg-inline--fa.fa-w-18{
+    width: 14px;
+}
+.actionbtn .svg-inline--fa.fa-w-14{
+    width: 12px;
+}
+
+.actionbtn .svg-inline--fa{
+    vertical-align: 0em;
+}
+
+
+.switch-group .btn {
+    font-size: 13px;
+}
+
+.switch-on{
+    left: -8px!important;
+}
+
+
+#sidebar.active .list-unstyled li span{
+    display: block;
+    padding-left: 0px;
+    font-size: 14px;
+  }
+  
+
+  .tabing a{
+      color: black!important;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:#02aaf8!important;
+}
+
+.managmentArea{
+    padding: 20px 0px;
+}
+
+.checkBox{
+    text-align: center;
+}
+.checkLabel{
+    font-weight: normal;
+    display: block;
+}
+
+
+
+

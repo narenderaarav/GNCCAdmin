@@ -1,0 +1,143 @@
+.wrapper{
+    display: flex;
+    align-items: stretch;
+}
+
+
+
+.sidebarWraper{
+  /* background:#292424; */
+  position: relative;
+}
+
+.sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    color:#fff;
+    transition: all 0.3s;
+}
+
+
+
+.logo{
+  text-align: center;
+}
+.logo img{
+  max-width: 100%;
+  width: 80px;
+}
+
+.sidebar .sidebar-header{
+  padding: 10px;
+   /* background: #eee; */
+}
+
+
+.navbar{
+    padding: 10px 30px!important;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px #eee;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+/* .list-unstyled a.active {
+  background-color:#007cb6;
+  color: white;
+  
+} */
+
+
+
+.list-unstyled a.active{
+  color:#02aaf8;
+}
+
+.list-unstyled li a:hover{
+  color:#02aaf8;
+}
+
+.list-unstyled li a{
+  color:#444;
+}
+
+
+.list-unstyled li{
+  border-bottom: 1px #f5f5f5 solid;
+}
+
+/* .list-unstyled li:hover{
+  background-color:#02aaf8;
+} */
+
+.list-unstyled a{
+  color: #fff; 
+  text-decoration: none;
+  display: block;
+    padding: 20px 10px
+}
+
+.list-unstyled a:hover{
+  color: #fff; 
+  text-decoration: none;
+}
+
+#sidebar.active {
+  min-width: 100px;
+  max-width: 100px;
+  text-align: center;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.list-unstyled li span{
+  padding-left: 8px;
+}
+
+
